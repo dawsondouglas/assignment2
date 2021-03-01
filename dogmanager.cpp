@@ -1,3 +1,9 @@
+/*
+ * Programming Assignment 2
+ * Created 2021-02-25
+ * Douglas Dawson
+ */
+
 #include <string>
 #include <sstream>
 #include <iostream>

@@ -7,7 +7,7 @@
 #include "dog.h"
 
 using namespace std;
-
+//dogtableprinter object class
 class DogTablePrinter{
 public:
     void printDogTable(vector<Dog> dogList);   

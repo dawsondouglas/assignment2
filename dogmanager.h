@@ -6,7 +6,7 @@
 #include <vector>
 
 using namespace std;
-
+//dogmanager object class
 class DogManager{
     vector<Dog> dogList; //holds dogs from file
 

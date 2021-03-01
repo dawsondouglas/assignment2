@@ -5,11 +5,11 @@
 #include <iostream>
 
 using namespace std;
-
+//dog object class
 class Dog{
-    string name;
-    int age;
-    string breed;
+    string name; //holds name
+    int age; //holds age
+    string breed; //holds breed
 
 public:
     Dog(string name, int age, string breed);
