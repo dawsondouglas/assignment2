@@ -13,10 +13,12 @@ class DogManager{
 public:
     DogManager();
     DogManager(string filename);
-
-    void loadDogs(string filename);
+   
     Dog oldestDog();
     void printDogs();
+
+private:
+    void loadDogs(string filename);
 };
 
 #endif

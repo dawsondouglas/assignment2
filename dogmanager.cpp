@@ -23,8 +23,18 @@ DogManager::DogManager(string filename) {
 void DogManager::loadDogs(string filename) {
     fstream file;
     string line;
-    file.open(filename);
-    
+    try
+    {
+        file.open(filename);
+        if (file.fail())
+        throw exception();
+    }
+    catch(const std::exception& e)
+    {
+        cout << "File " << filename << "could not be opened";
+        throw e;
+    }
+
     while (!file.eof())
     {
         if (getline(file,line))
