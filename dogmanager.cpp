@@ -67,7 +67,7 @@ void DogManager::loadDogs(string filename) {
             }
             catch(const std::exception& e)
             {
-                std::cout << "Bad input in file " << filename << '\n';
+                std::cout << "The data file" << filename << "is not formatted correctly" << endl;
                 throw e;
             }
             continue;      
