@@ -15,7 +15,6 @@
 
 using namespace std;
 
-vector<Dog> dogList;
 DogTablePrinter dogTablePrinter;
 
 DogManager::DogManager() {

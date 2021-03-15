@@ -8,12 +8,7 @@
 #include <iostream>
 #include "dog.h"
 
-string name;
-int age;
-string breed;
-
-
-string Dog::getName()
+string Dog::getName() const
 {
     return name;
 }
@@ -24,7 +19,7 @@ void Dog::setName(string name)
 }
 
 
-int Dog::getAge()
+int Dog::getAge() const
 {
     return age;
 }
@@ -35,7 +30,7 @@ void Dog::setAge(int age)
 }
 
 
-string Dog::getBreed()
+string Dog::getBreed() const
 {
     return breed;
 }

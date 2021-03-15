@@ -15,11 +15,11 @@ public:
     Dog(string name, int age, string breed);
     Dog();
     
-    string getName();
+    string getName() const;
     void setName(string name);
-    int getAge();
+    int getAge() const;
     void setAge(int age);
-    string getBreed();
+    string getBreed() const;
     void setBreed(string breed);
 };
 #endif
